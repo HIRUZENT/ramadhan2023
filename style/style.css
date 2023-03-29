@@ -1,0 +1,198 @@
+::-webkit-scrollbar{
+    width: 0px;}
+::-webkit-scrollbar-thumb{
+    background: black;
+}
+*{
+	scroll-behavior: smooth;
+	margin:0;
+	padding:0;
+	font-family: 'Edu NSW ACT Foundation', cursive;
+}
+body{
+	scroll-behavior: smooth;
+	background-repeat: no-repeat;
+	background-color: black;
+	 background: linear-gradient(to right, #000046, #1cb5e0); 
+}
+#check{
+	display: none;
+}
+header{
+	background-color: white;
+	position:relative;
+    left: 0;	
+    top: 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+	background-color: white;
+}
+header h1{
+	padding: 20px;
+	display: inline-block;
+	float: left;
+}
+header h1 a {
+	color: #19376D;
+	transition: 0.2s;
+}
+header h1 a:hover{
+	font-size: 50px;
+	transition: 0.2s;
+}
+header h1 a:hover{
+	color: #576CBC;
+}
+header ul{
+	float: right;
+}
+header ul a{
+	transition: 0.3s;
+	padding: 10px;
+	color: #19376D;
+	font-size: 20px;
+	border-radius: 20px;
+}
+header ul a:hover{
+	margin-left: 20px;
+	color: #576CBC;
+}
+header ul li{
+	color: #042036;
+	transition: 0.2s;
+	padding: 24px;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 90%;
+	border: 20px;
+	margin: 0 auto;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.mobile-menu{
+	float: right;
+	padding: 20px;
+	display: none;
+}
+.mobile-menu:hover{
+	cursor: pointer;
+}
+@media (max-width: 888px){
+	.mobile-menu{
+		display: block;
+		margin-left: -38px;
+	}
+	header ul{
+		display: none;
+	}
+}
+
+.sidebar{
+	position: fixed;
+	transition: 0.3s;
+	top: 0;
+	bottom: 0;
+	left: -300px;
+	width: 300px;
+	background-color: rgba(38, 42, 86, .9);
+}
+.sidebar h1{
+	top: 0;
+	text-decoration: none;
+	padding: 20px;
+	color: #002B5B;
+	background-color: black;
+}
+.sidebar ul li{
+	padding: 20px;
+}
+.sidebar ul li a{
+	transition-property: background-color;
+	color: #FFFFFF;
+}
+.sidebar ul li a:hover{
+	color: #576CBC;
+	transition: 0.3s;
+}
+.sidebar ul li:hover{
+	border-bottom: white solid;
+	margin-left: 20px;
+	margin-right: 50px;
+	transition: 0.3s;
+}
+#check:checked ~ .sidebar{
+	left: 0;
+	transition: 0.3s;
+}
+#check:checked ~ footer{
+	bottom: -200px;
+	transition: 0.3s;
+}
+
+.calendar{
+	justify-content: center;
+}
+.calendar img{
+  	width: 400px;
+  	margin-top: 200px;
+	float: right;
+	transition: 0.3s;
+	margin-left: 200px;
+	margin-right: 20px;
+	flex: 1 0 100%;
+}
+.calendar img:hover{
+	width: 500px;
+	transition: 0.3s;
+}
+.calendar .h2{
+	font-size: 50px;
+	color: white;
+	padding-top: 300px;
+	text-align: center;
+}
+
+.info h1{
+	margin-left: -299px;
+	font-size: 80px;
+}
+.info img{
+  	width: 600px;
+  	margin-top: -50px;
+	float: left;
+	transition: 0.3s;
+	margin-right: 20px;
+	flex: 1 0 100%;
+}
+.info .h2{
+	font-size: 20px;
+	color: white;
+	padding-top: 200px;
+	margin-top: 80px;
+	text-align: left;
+}
+footer{
+	background:#f0f0f0;
+	position:fixed;
+	bottom:0;
+	transition: 0.4s;
+	width:100%;
+	text-align: center;
+	margin-left: -20px;
+	padding: 20px;
+    text-align:center;color:#808080;
+}
+footer h1{
+	font-size: 10px;
+}
+footer h2{
+	font-size: 5px;
+}
