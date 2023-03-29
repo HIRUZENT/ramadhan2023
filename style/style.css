@@ -12,6 +12,7 @@
 body{
 	scroll-behavior: smooth;
 	background-repeat: no-repeat;
+	 background-size: cover;
 	background-color: black;
 	 background: linear-gradient(to right, #000046, #1cb5e0); 
 }
