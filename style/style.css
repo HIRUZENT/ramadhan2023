@@ -185,6 +185,20 @@ a{
 	}
 	.gambar1 h2{
 		font-size: 20px;
+		transition: 0.3s;
+	}
+		
+
+}
+@media (max-width:400px){
+	.gambar1 h2{
+		font-size: 120px;
+		margin-top: 250px;
+		transition: 0.3s;
+	}
+	.gambar1 h3{
+		font-size: 20px;
+		transition: 0.3s;
 	}
 		
 
@@ -194,7 +208,9 @@ a{
 		width: 250px;
 	}
 	.gambar1 h2{
+		letter-spacing: 2;
 		font-size: 20px;
+		transition: 0.3s;
 	}
 
 } @media (max-width:490px){
@@ -204,6 +220,11 @@ a{
 	}
 	.gambar2 h2{
 		font-size: 0px;
+		transition: 0.4s;
+	}	
+	.gambar2 h3{
+		font-size: 0px;
+		transition: 0.4s;
 	}
 }
 
@@ -214,6 +235,10 @@ a{
 	}
 	.gambar1 h2{
 		font-size: 15px;
+		transition: 0.3s;
+	}
+	.gambar1 h3{
+		font-size: 15px;
 	}
 	.gambar2 img{
 		width: 190px;
@@ -221,6 +246,7 @@ a{
 	}
 	.gambar2 h2{
 		font-size: 15px;
+		transition: 0.4s;
 	}
 
 
@@ -266,6 +292,14 @@ footer h2{
 @media (max-width:240px){
 	.gambar1 img{
 		width: 0px;
+	}	
+	.gambar1 h2{
+		font-size: 0px;
+		transition: 0.4s;
+	}
+	.gambar1 h3{
+		font-size: 0px;
+		transition: 0.4s;
 	}
 }
 @media (max-width:170px){
@@ -301,6 +335,10 @@ footer h2{
 		transition: 0.4s;
 	}	
 	.gambar2 h2{
+		font-size: 0px;
+		transition: 0.4s;
+	}
+	.gambar2 h3{
 		font-size: 0px;
 		transition: 0.4s;
 	}
