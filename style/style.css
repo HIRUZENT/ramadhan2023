@@ -164,15 +164,14 @@ a{
 }
 .gambar2 img{
   	width: 250px;
-  	margin-top: 0px;
+  	margin-top: -20px;
 	float: left;
 	transition: 0.3s;
 	margin-right: 20px;
 	flex: 1 0 100%;
 }
 .gambar2 img:hover{
-	width: 400px;
-	margin-right: -15px;
+	width: 280px;
 	transition: 0.3s;
 }
 
