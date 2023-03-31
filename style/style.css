@@ -11,6 +11,7 @@
 }
 
 body{
+	 padding-bottom: 200px;
 	 margin: 20px;
 	 scroll-behavior: smooth;
 	 background-repeat: no-repeat;
@@ -142,36 +143,28 @@ a{
 	font-size: 50%;
 }
 .gambar1{
-	justify-content: center;
-	margin-bottom: 100px;
-}
-.gambar1 img{
-  	width: 320px;
-  	margin-top: 200px;
-  	margin-bottom: 30px;
-	float: right;
-	transition: 0.3s;
-	margin-left: 200px;
-	margin-right: 20px;
-	flex: 1 0 100%;
-}
-.gambar1 img:hover{
-	width: 400px;
-	margin-right: -15px;
-	transition: 0.3s;
-}
-
-
-
-
-.gambar2{
+	margin-top: 50px;
 	justify-content: center;
 	margin-bottom: 400px;
 }
-.gambar2 img{
-  	width: 320px;
-  	margin-top: 20px;
+.gambar1 img{
+  	width: 300px;
+  	margin-top: 100px;
   	margin-bottom: 30px;
+	float: right;
+	margin-right: 20px;
+	transition: 0.3s;
+	flex: 1 0 100%;
+}
+.gambar1 img:hover{
+	width: 320px;
+	margin-right: -15px;
+	transition: 0.3s;
+	margin-right: 50px;
+}
+.gambar2 img{
+  	width: 250px;
+  	margin-top: 0px;
 	float: left;
 	transition: 0.3s;
 	margin-right: 20px;
@@ -183,125 +176,75 @@ a{
 	transition: 0.3s;
 }
 
-@media (max-width:380px){
+
+
+
+@media (max-width:600px){
 	.gambar1 img{
 		width: 270px;
-		margin-right: 25px;
 	}
 	.gambar1 h2{
 		font-size: 20px;
 	}
 		
-	.gambar2 img{
-		width: 250px;
-		margin-right: 25px;
-	}
-	.gambar2 h2{
-		font-size: 20px;
-	}
+
 }
-@media (max-width:350px){
+@media (max-width:440px){
 	.gambar1 img{
 		width: 250px;
-		margin-right: 20px;
 	}
 	.gambar1 h2{
 		font-size: 20px;
 	}
+
+} @media (max-width:490px){
 	.gambar2 img{
-		width: 200px;
-		margin-right: 20px;
+		width: 150px;
+		margin-left: 120px;
 	}
 	.gambar2 h2{
-		font-size: 20px;
-	}
-}@media (max-width:490px){
-	.gambar2 img{
-		width: 200px;
-		margin-left: 100px;
-	}
-	.gambar2 h2{
-		font-size: 20px;
+		font-size: 0px;
 	}
 }
+
 @media (max-width:340px){
 	.gambar1 img{
-		width: 150px;
-		margin-right: 75px;
-	}
-	.gambar1 h2{
-	font-size: 15px;
-	}
-	.gambar2 img{
-		width: 200px;
-		margin-left: 50px;
-	}
-	.gambar2 h2{
-		font-size: 20px;
-	}
-}
-@media (max-width:340px){
-	.gambar1 img{
-		width: 150px;
+		width: 190px;
 		margin-right: 40px;
 	}
 	.gambar1 h2{
-	font-size: 15px;
+		font-size: 15px;
 	}
 	.gambar2 img{
-		width: 200px;
-		margin-left: 28px;
+		width: 190px;
+		margin-left: -29px;
 	}
 	.gambar2 h2{
-		font-size: 20px;
+		font-size: 15px;
 	}
+
+
 }
 
 
 
 .gambar1 .h2{
-	font-size: 20px;
+	font-size: 40px;
 	color: white;
-	padding-top: 350px;
+	padding-top: 200px;
+	transition: 0.4s;
 	text-align: center;
 }
-
-.gambar2 img{
-  	width: 355px;
-  	margin-top: 200px;
-  	margin-bottom: 30px;
-	float: left;
-	transition: 0.3s;
-	margin-right: 20px;
-	flex: 1 0 100%;
-}
-.gambar2 img:hover{
-	width: 380px;
-	margin-right: -15px;
-	transition: 0.3s;
-}
-@media (max-width:439){
-	.gambar2 img{
-		float: center;
-	}
-}
-.gambar2{
+.gambar2 h2{
 	font-size: 20px;
 	color: white;
-	padding-top: 50px;
-	margin-top: 0px;
+	transition: 0.4s;
 }
 .gambar2 h1{
-	color: white;
 	font-size: 40px;
-	text-align: center;
-}
-.gambar2 h{
 	color: white;
-	font-size: 40px;
-	text-align: center;
+	transition: 0.4s;
 }
-
 footer{
 	background:#f0f0f0;
 	position:fixed;
@@ -318,4 +261,52 @@ footer h1{
 }
 footer h2{
 	font-size: 5px;
+}
+
+@media (max-width:240px){
+	.gambar1 img{
+		width: 0px;
+	}
+}
+@media (max-width:170px){
+	.gambar2 h1{
+		font-size: 20px;
+		transition: 0.4s;
+	}
+}
+
+@media (max-width:835px){
+	.gambar1 .h2{
+		font-size: 20px;
+		transition: 0.4s;
+	}
+}
+@media (max-width:604px){
+	.gambar1 .h2{
+		font-size: 10px;
+		transition: 0.4s;
+	}
+}
+@media (max-width:160px){
+	.gambar1 .h2{
+		display: none;
+		transition: 0.4s;
+	}	
+	.gambar2 img{
+		width: 0px;
+		transition: 0.4s;
+	}
+	.gambar2 h1{
+		font-size: 0px;
+		transition: 0.4s;
+	}	
+	.gambar2 h2{
+		font-size: 0px;
+		transition: 0.4s;
+	}
+}
+@media (max-width:414px){
+	.gambar1 .h2{
+		transition: 0.4s;
+	}	
 }
