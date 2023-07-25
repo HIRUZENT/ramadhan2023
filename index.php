@@ -19,7 +19,7 @@
         <ul>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#info">Info</a></li>
+            <li><a href="#informasi">Info</a></li>
             <li><a href="#calendar">Calendar</a></li>
             <li><a href="">Gallery</a></li>
         </ul>
@@ -30,7 +30,7 @@
         <h1><a href="">Ramadhan</a></h1>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#info">Info</a></li>
+            <li><a href="#informasi">Info</a></li>
             <li><a href="#calendar">Calendar</a></li>
             <li><a href="">Gallery</a></li>
         </ul>
@@ -39,20 +39,18 @@
         </div>
     </header>
     <!-- bagian calendar -->
-    <section class="calendar" id="calendar">
-        <div class="container">
+    <section class="gambar1" id="calendar">
             <img src="imsyakiyah.jpg">
             <div class="h2">
-            <h2>Jadwal Imsyakiyah</h2>
-            <h2>Puasa Ramadhan</h2>
-            <h2>1444H</h2>
+            <h2>Jadwal</h2>
+            <h3>Imsyakiyah</h3>
+            <h3>Puasa Ramadhan</h3>
+            <h3>1444H</h3>
         </div>
     </section>
 
     <!-- bagian Info -->
-    <section class="info" id="info">
-        <div class="container">
-            <div class="h2">
+    <section class="gambar2" id="informasi">
             <img src="bulanbintang.png">
             <h1>Informasi</h1>
             <h2>Bulan suci Ramadhan adalah bulan yang penuh keberkahan, ampunan dan rakhmat serta kasih sayang dari Allah SWT. Selain menjadikan doa lebih mustajab, salah satu keutamaan puasa Ramadhan adalah sebagai pelindung dari setan. Setan akan selalu berusaha untuk menggoda manusia, agar mereka melakukan hal-hal yang dilarang dalam agama Islam. Pada bulan ini, umat Muslim di seluruh dunia melakukan ibadah puasa (saum) dan memperingati wahyu pertama yang turun kepada Nabi Muhammad menurut keyakinan umat Muslim.</h2>
@@ -60,14 +58,14 @@
     </section>
 
     <!-- bagian Gallery -->
-    <section class="info" id="info">
+<!--     <section class="gallery" id="info">
         <div class="container">
             <h1>Informasi</h1>
-            <div class="h2">
+            <div class="gallery">
             <img src="bulanbintang.png">
             <h2>Bulan suci Ramadhan adalah bulan yang penuh keberkahan, ampunan dan rakhmat serta kasih sayang dari Allah SWT.Selain menjadikan doa lebih mustajab, salah satu keutamaan puasa Ramadhan adalah sebagai pelindung dari setan. Setan akan selalu berusaha untuk menggoda manusia, agar mereka melakukan hal-hal yang dilarang dalam agama Islam.</h2>
         </div>
-    </section>
+    </section> -->
 </body>
 <footer>
     <h1>Copyrigt by Naufal Fadhilah F</h1>
